@@ -1,0 +1,530 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar-1 {
+    position: fixed;
+    right: 0;
+    left: 0;
+    /* height: 10vh; */
+    background-color: rgb(255, 212, 69);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+
+.nav-data>p {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.navbar-1>p {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-1 {
+    border-radius: 20px;
+    position: relative;
+    padding: 10px;
+    border: none;
+    background-color: rgb(1, 1, 154);
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: #ffffff;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.head-content {
+    background-color: black;
+    height: 100vh;
+    color: rgb(255, 212, 69);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px 10px 10px;
+
+}
+
+.inner-content {
+    position: absolute;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.para-1 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.para-2 {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 0px 10px white;
+}
+
+.para-3 {
+    padding: 5px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.para-4 {
+    padding: 10px;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+.para-6 {
+    font-size: 1.5rem;
+    padding: 1.5rem 0 0 0;
+    color: #ffffff;
+    text-shadow: 2px 0px 10px white;
+    cursor: pointer;
+}
+
+.para-6>span {
+    margin: 0 20px 0 0;
+}
+
+.icon-3 {
+    color: #ffffff;
+    padding: 10px;
+
+    text-shadow: none;
+}
+
+.para-name {
+    display: flex;
+    gap: 50px;
+}
+
+.color-blue {
+    color: blue
+}
+
+.inner-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* ...............countdown............................   */
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    letter-spacing: .125rem;
+    font-weight: bold;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1.5em;
+
+}
+
+li span {
+    display: block;
+    font-size: 4rem;
+}
+
+.d-1 {
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+/* ..............................................  */
+
+.register-btn {
+    background-color: #e3d57d;
+    border-radius: 5px;
+}
+
+.reg-btn {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    background-color: #f8f8f8;
+}
+
+.img-1 {
+    width: 23vw;
+    height: 80vh;
+}
+
+
+
+/* ........about.................... */
+.about {
+    padding: 25px;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-image {
+    margin-top: 4rem;
+    height: 70vh;
+    width: 30rem;
+}
+
+.innerAbout-1 {
+    background-color: black;
+    padding: 0px;
+    margin: 50px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 100px;
+}
+
+.innerPara-1 {
+    padding: 20px;
+    font-weight: bold;
+    letter-spacing: .125rem;
+    word-wrap: break-word;
+}
+
+.innerAbout-2 {
+    margin-left: 50px;
+    display: flex;
+    justify-items: center;
+}
+
+.innerPara-2 {
+    text-align: left;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.icon-1 {
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.reg-btn-2 {
+    background-color: #e3d57d;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.reg-btn-2:hover {
+    background-color: #f8f8f8;
+    border: 1px solid black;
+}
+
+/* ..........benefit section.......... */
+
+.b-heading {
+    color: #ffffff;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.unline {
+    width: 90%;
+    height: 10px;
+    background-color: rgb(0, 26, 170);
+    text-align: center;
+}
+
+.un {
+    display: flex;
+    justify-content: center;
+}
+
+.benefit-cards {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.benefit-1 {
+    padding: 5px;
+    width: 15rem;
+    height: 15rem;
+    margin: 10px;
+    background-color: #ffffff;
+}
+
+.icon-2 {
+    margin: 10px;
+    padding: 5px;
+    font-size: 2rem;
+    color: #edd641;
+}
+
+.card-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-para {
+    margin: 10px;
+    color: rgb(129, 121, 121);
+    font-size: 1.2rem;
+}
+
+/* .............footer...................... */
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    width: 80%;
+    height: 10rem;
+    margin: 0 0 2rem 0;
+    background-color: rgb(0, 0, 109);
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-footer {
+    background-color: #e3d57d;
+    font-weight: bolder;
+    width: 20rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.inner-footer:hover{
+    background-color:#ffffff;
+    border: 1px solid black;
+}
+a {
+    text-decoration: none;
+}
+.p-1{
+    color: black;
+}
+
+.p-2-1 {
+    color: #ffffff;
+    margin: 10px;
+}
+
+@media all and (max-width: 1250px) {
+    html {
+        font-size: 80%;
+    }
+
+    .nav-data>p {
+        padding: 10px;
+    }
+
+    .img-1 {
+        height: 70vh;
+    }
+
+    .head-content {
+        height: 80vh;
+    }
+
+    .inner-image {
+        position: absolute;
+        bottom: 20vh;
+        right: 0;
+
+    }
+    .about {
+        padding: 20px;
+    }
+    .about-image {
+        margin-top: 3rem;
+        height: 60vh;
+        width: 30rem;
+    }
+    .logo {
+        margin-top: 80px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    html {
+        font-size: 60%;
+    }
+
+    .img-1 {
+        height: 60vh;
+    }
+
+    .head-content {
+        height: 80vh;
+
+    }
+
+    .inner-content {
+        margin: 0px;
+    }
+
+    .inner-image {
+        position: absolute;
+        bottom: 20vh;
+        right: 0;
+    }
+    .innerAbout-1 {
+        margin: 15px;
+   }
+   .about {
+    padding: 15px;
+}
+   .about-image {
+    margin-top: 4rem;
+    height: 45vh;
+    width: 25rem;
+}
+.logo {
+    margin-top: 60px;
+}
+}
+
+@media all and (max-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+
+    .nav-data>p {
+        padding: 5px;
+    }
+
+    .img-1 {
+        height: 50vh;
+    }
+
+    .head-content {
+        height: 70vh;
+        margin: 0px;
+    }
+
+    .inner-image {
+        position: absolute;
+        bottom: 30vh;
+        right: 0;
+    }
+
+    .logo {
+        width: 80%;
+    }
+    .about-image {
+        margin-top: 7rem;
+        height: 37vh;
+        width: 25rem;
+    }
+    .about {
+        padding: 10px;
+    }
+    .logo {
+        margin-top: 40px;
+    }
+    .benefit-1 {
+        padding: 10px;
+        width: 22rem;
+        height: 22rem;
+        margin: 20px;
+    }
+    .icon-2 {
+        margin: 2px;
+        padding: 2px;
+    }
+    .card-para {
+        margin: 5px;
+    }
+}
+
+@media all and (max-width: 470px) {
+    html {
+        font-size: 30%;
+    }
+
+    .img-1 {
+        height: 35vh;
+        width: 22rem;
+    }
+
+    .btn-1 {
+        padding: 5px;
+    }
+
+    .head-content {
+        height: 40vh;
+        margin: 0px;
+    }
+
+    .inner-image {
+        position: absolute;
+        bottom: 60vh;
+        right: 0;
+
+    }
+    .about {
+        padding: 0px;
+    }
+    .about-image {
+        margin-top: 1.5rem;
+        height: 33vh;
+        width: 25rem;
+    }
+    .logo {
+        margin-top: 20px;
+    }
+    .icon-2 {
+        margin: 5px;
+        padding: 3px;
+    }
+}
