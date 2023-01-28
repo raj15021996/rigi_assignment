@@ -35,7 +35,6 @@ body {
 
 .btn-1 {
     border-radius: 20px;
-    position: relative;
     padding: 10px;
     border: none;
     background-color: rgb(1, 1, 154);
@@ -57,6 +56,7 @@ body {
     color: rgb(255, 212, 69);
     display: flex;
     align-items: center;
+    gap:20px;
     justify-content: space-between;
     padding: 10px 0px 10px 10px;
 
@@ -407,6 +407,12 @@ a {
         font-size: 60%;
     }
 
+    .btn-1 {
+        border-radius: 20px;
+        padding: 5px;
+        font-weight: bold;
+        cursor: pointer;
+    }
     .img-1 {
         height: 60vh;
     }
@@ -443,7 +449,7 @@ a {
 
 @media all and (max-width: 600px) {
     html {
-        font-size: 55%;
+        font-size: 45%;
     }
 
     .nav-data>p {
@@ -538,7 +544,7 @@ a {
         padding: 3px;
     }
     .para-name {
-        gap: 20px;
+        gap: 15px;
     }
 }
 @media all and (max-width: 390px) {
