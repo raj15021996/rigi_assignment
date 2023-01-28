@@ -338,6 +338,7 @@ li span {
     font-weight: bolder;
     width: 20rem;
     height: 3rem;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -352,6 +353,7 @@ a {
 }
 .p-1{
     color: black;
+    padding: 5px;
 }
 
 .p-2-1 {
@@ -436,7 +438,7 @@ a {
 
 @media all and (max-width: 600px) {
     html {
-        font-size: 50%;
+        font-size: 55%;
     }
 
     .nav-data>p {
@@ -489,7 +491,7 @@ a {
 
 @media all and (max-width: 470px) {
     html {
-        font-size: 30%;
+        font-size: 35%;
     }
 
     .img-1 {
