@@ -293,6 +293,11 @@ li span {
     height: 15rem;
     margin: 10px;
     background-color: #ffffff;
+    
+}
+.benefit-1:hover{
+    box-shadow: 2px 5px 10px rgba(223, 223, 223, 0.875);
+    cursor: pointer;
 }
 
 .icon-2 {
