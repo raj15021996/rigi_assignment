@@ -492,6 +492,9 @@ a {
     .card-para {
         margin: 5px;
     }
+    .para-name {
+        gap: 30px;
+    }
 }
 
 @media all and (max-width: 470px) {
@@ -534,4 +537,37 @@ a {
         margin: 5px;
         padding: 3px;
     }
+    .para-name {
+        gap: 20px;
+    }
+}
+@media all and (max-width: 390px) {
+    html {
+        font-size: 25%;
+    }
+
+    .img-1 {
+        height: 30vh;
+        width: 20rem;
+    }
+
+    .btn-1 {
+        padding: 3px;
+    }
+
+    .head-content {
+        height: 35vh;
+        margin: 0px;
+    }
+
+    .inner-image {
+        position: absolute;
+        bottom: 65vh;
+        right: 0;
+
+    }
+    .para-name {
+        gap: 5px;
+    }
+    
 }
