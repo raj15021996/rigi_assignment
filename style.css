@@ -52,7 +52,8 @@ body {
 
 .head-content {
     background-color: black;
-    height: 100vh;
+    position: relative;
+    top:30px;
     color: rgb(255, 212, 69);
     display: flex;
     align-items: center;
@@ -63,8 +64,7 @@ body {
 }
 
 .inner-content {
-    position: absolute;
-    margin: 50px;
+    margin: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,8 +180,8 @@ li span {
 }
 
 .img-1 {
-    width: 23vw;
-    height: 80vh;
+    width: 20rem;
+    height: 40rem;
 }
 
 
@@ -197,6 +197,7 @@ li span {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    /* margin: 100px; */
 }
 
 .about-image {
@@ -368,7 +369,7 @@ a {
 
 @media all and (max-width: 1250px) {
     html {
-        font-size: 80%;
+        font-size: 70%;
     }
 
     .nav-data>p {
@@ -376,16 +377,16 @@ a {
     }
 
     .img-1 {
-        height: 70vh;
+        width: 18rem;
+        height: 42rem;
     }
-
-    .head-content {
-        height: 80vh;
-    }
-
+    
+     .inner-content{
+        margin: 50px;
+     }
     .inner-image {
         position: absolute;
-        bottom: 20vh;
+        bottom: 0;
         right: 0;
 
     }
@@ -397,12 +398,10 @@ a {
         height: 60vh;
         width: 30rem;
     }
-    .logo {
-        margin-top: 80px;
-    }
+    
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 820px) {
     html {
         font-size: 60%;
     }
@@ -414,21 +413,22 @@ a {
         cursor: pointer;
     }
     .img-1 {
-        height: 60vh;
+        width: 16rem;
+        height: 40rem;
     }
 
-    .head-content {
+    /* .head-content {
         height: 80vh;
 
-    }
+    } */
 
     .inner-content {
-        margin: 0px;
+        margin: 40px;
     }
 
     .inner-image {
         position: absolute;
-        bottom: 20vh;
+        bottom: 0;
         right: 0;
     }
     .innerAbout-1 {
@@ -442,9 +442,7 @@ a {
     height: 45vh;
     width: 25rem;
 }
-.logo {
-    margin-top: 60px;
-}
+
 }
 
 @media all and (max-width: 600px) {
@@ -457,17 +455,19 @@ a {
     }
 
     .img-1 {
-        height: 50vh;
+        height: 50rem;
     }
 
-    .head-content {
+    /* .head-content {
         height: 70vh;
         margin: 0px;
+    } */
+    .inner-content{
+        margin: 30px;
     }
-
     .inner-image {
         position: absolute;
-        bottom: 30vh;
+        bottom: 0;
         right: 0;
     }
 
@@ -482,9 +482,7 @@ a {
     .about {
         padding: 10px;
     }
-    .logo {
-        margin-top: 40px;
-    }
+    
     .benefit-1 {
         padding: 10px;
         width: 22rem;
@@ -508,26 +506,14 @@ a {
         font-size: 35%;
     }
 
-    .img-1 {
-        height: 35vh;
-        width: 22rem;
-    }
+    /* .img-1 {
+        height: 35rem;
+    } */
 
     .btn-1 {
         padding: 5px;
     }
 
-    .head-content {
-        height: 40vh;
-        margin: 0px;
-    }
-
-    .inner-image {
-        position: absolute;
-        bottom: 60vh;
-        right: 0;
-
-    }
     .about {
         padding: 0px;
     }
@@ -536,9 +522,7 @@ a {
         height: 33vh;
         width: 25rem;
     }
-    .logo {
-        margin-top: 20px;
-    }
+    
     .icon-2 {
         margin: 5px;
         padding: 3px;
@@ -553,7 +537,7 @@ a {
     }
 
     .img-1 {
-        height: 30vh;
+        height: 70rem;
         width: 20rem;
     }
 
@@ -561,17 +545,6 @@ a {
         padding: 3px;
     }
 
-    .head-content {
-        height: 35vh;
-        margin: 0px;
-    }
-
-    .inner-image {
-        position: absolute;
-        bottom: 65vh;
-        right: 0;
-
-    }
     .para-name {
         gap: 5px;
     }
